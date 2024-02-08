@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Walmart Cart page Smoke suite">
+
+        <test name = "example of package">
+            <packages>
+                <package name="com.postman"></package>
+            </packages>
+        </test>
+
+</suite>

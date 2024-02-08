@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Walmart Cart page Smoke suite" parallel="tests" thread-count="1">
+
+    <test name = "Ergast Test">
+        <classes>
+            <class name = "com.ergast.ErgastTest"/>
+        </classes>
+    </test>
+    <test name = "Upload File Test">
+        <classes>
+            <class name = "com.postman.UploadFileSampleTest"/>
+        </classes>
+    </test>
+</suite>

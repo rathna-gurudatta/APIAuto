@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Walmart Cart page Smoke suite">
+    <listeners>
+        <listener class-name="utils.RetryListener"></listener>
+    </listeners>
+    <test name = "API user management test cases">
+        <classes>
+            <class name = "com.ergast.ErgastTest"/>
+            <class name = "com.postman.PostmanEchoTest"/>
+        </classes>
+    </test>
+    </suite>
